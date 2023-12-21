@@ -1,0 +1,11 @@
+framework module rongmaikit_xcframework {
+  umbrella header "rongmaikit_xcframework.h"
+  export *
+
+  module * { export * }
+}
+
+module rongmaikit_xcframework.Swift {
+  header "rongmaikit_xcframework-Swift.h"
+  requires objc
+}
