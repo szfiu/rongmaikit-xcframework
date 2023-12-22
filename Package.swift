@@ -3,10 +3,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "rongmaikit-ios-dependencies",
+    name: "RongmaiKit",
     products: [
         .library(
-            name: "rongmaikit-ios-dependencies",
+            name: "RongmaiKit",
             targets: [
                 "rongmaikit_xcframework",
 
