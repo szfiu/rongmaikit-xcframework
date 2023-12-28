@@ -1,0 +1,1932 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RongmaiKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JsonReader",
+        "printedName": "JsonReader",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "readJson",
+            "printedName": "readJson(fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit10JsonReaderC04readC08fileNameypSgSS_tFZ",
+            "mangledName": "$s10RongmaiKit10JsonReaderC04readC08fileNameypSgSS_tFZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10RongmaiKit10JsonReaderC",
+        "mangledName": "$s10RongmaiKit10JsonReaderC",
+        "moduleName": "RongmaiKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "RongmaiKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RongmaiKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IOSIntentModule",
+        "printedName": "IOSIntentModule",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "React.RCTEventEmitter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RCTEventEmitter",
+                    "printedName": "React.RCTEventEmitter",
+                    "usr": "c:objc(cs)RCTEventEmitter"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule(cpy)instance",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleC8instanceSo15RCTEventEmitterCSgvpZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "React.RCTEventEmitter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RCTEventEmitter",
+                        "printedName": "React.RCTEventEmitter",
+                        "usr": "c:objc(cs)RCTEventEmitter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule(cm)instance",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC8instanceSo15RCTEventEmitterCSgvgZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "React.RCTEventEmitter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RCTEventEmitter",
+                        "printedName": "React.RCTEventEmitter",
+                        "usr": "c:objc(cs)RCTEventEmitter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule(cm)setInstance:",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC8instanceSo15RCTEventEmitterCSgvsZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC8instanceSo15RCTEventEmitterCSgvMZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC8instanceSo15RCTEventEmitterCSgvMZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiEventSet",
+            "printedName": "apiEventSet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvpZ",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvpZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvgZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvgZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvsZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvsZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvMZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11apiEventSetShySSGvMZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wsEventSet",
+            "printedName": "wsEventSet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvpZ",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvpZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvgZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvgZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvsZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvsZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvMZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC10wsEventSetShySSGvMZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkEventSet",
+            "printedName": "sdkEventSet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvpZ",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvpZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvgZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvgZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvsZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvsZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvMZ",
+                "mangledName": "$s10RongmaiKit15IOSIntentModuleC11sdkEventSetShySSGvMZ",
+                "moduleName": "RongmaiKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "callback",
+            "printedName": "callback(res:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule(cm)callbackWithRes:",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleC8callback3resySo12NSDictionaryC_tFZ",
+            "moduleName": "RongmaiKit",
+            "static": true,
+            "objc_name": "callbackWithRes:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IOSIntentModule",
+                "printedName": "RongmaiKit.IOSIntentModule",
+                "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule(im)init",
+            "mangledName": "$s10RongmaiKit15IOSIntentModuleCACycfc",
+            "moduleName": "RongmaiKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RongmaiKit@objc(cs)IOSIntentModule",
+        "mangledName": "$s10RongmaiKit15IOSIntentModuleC",
+        "moduleName": "RongmaiKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RongmaiKit"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "RongmaiKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RongmaiCS",
+        "printedName": "RongmaiCS",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RongmaiCS",
+                "printedName": "RongmaiKit.RongmaiCS",
+                "usr": "s:10RongmaiKit0A2CSC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10RongmaiKit0A2CSCACycfc",
+            "mangledName": "$s10RongmaiKit0A2CSCACycfc",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getView",
+            "printedName": "getView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC7getViewSo6UIViewCyF",
+            "mangledName": "$s10RongmaiKit0A2CSC7getViewSo6UIViewCyF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initSdk",
+            "printedName": "initSdk(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC7initSdk6configyyp_tF",
+            "mangledName": "$s10RongmaiKit0A2CSC7initSdk6configyyp_tF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initSdk",
+            "printedName": "initSdk(config:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC7initSdk6config8callbackyyp_yypSgctF",
+            "mangledName": "$s10RongmaiKit0A2CSC7initSdk6config8callbackyyp_yypSgctF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "baseEmit",
+            "printedName": "baseEmit(event:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC8baseEmit5event4argsS2S_SDySSypGSgtF",
+            "mangledName": "$s10RongmaiKit0A2CSC8baseEmit5event4argsS2S_SDySSypGSgtF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:params:config:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5event6params6config8callbackySS_SDySSypGAIyypSgctF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5event6params6config8callbackySS_SDySSypGAIyypSgctF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:params:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5event6params8callbackySS_SDySSypGyypSgctF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5event6params8callbackySS_SDySSypGyypSgctF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5event8callbackySS_yypSgctF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5event8callbackySS_yypSgctF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:params:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5event6params6configySS_SDySSypGAHtF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5event6params6configySS_SDySSypGAHtF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5event6paramsySS_SDySSypGtF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5event6paramsySS_SDySSypGtF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC4emit5eventySS_tF",
+            "mangledName": "$s10RongmaiKit0A2CSC4emit5eventySS_tF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(event:params:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC9subscribe5event6params8callbackS2S_SDySSypGyypSgctF",
+            "mangledName": "$s10RongmaiKit0A2CSC9subscribe5event6params8callbackS2S_SDySSypGyypSgctF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC11unsubscribeyySSF",
+            "mangledName": "$s10RongmaiKit0A2CSC11unsubscribeyySSF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RongmaiKit0A2CSC7destroyyyF",
+            "mangledName": "$s10RongmaiKit0A2CSC7destroyyyF",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10RongmaiKit0A2CSC",
+        "mangledName": "$s10RongmaiKit0A2CSC",
+        "moduleName": "RongmaiKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Callback",
+        "printedName": "Callback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "callback",
+            "printedName": "callback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RongmaiKit8CallbackC8callbackyyypSgcvp",
+            "mangledName": "$s10RongmaiKit8CallbackC8callbackyyypSgcvp",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC8callbackyyypSgcvg",
+                "mangledName": "$s10RongmaiKit8CallbackC8callbackyyypSgcvg",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC8callbackyyypSgcvs",
+                "mangledName": "$s10RongmaiKit8CallbackC8callbackyyypSgcvs",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC8callbackyyypSgcvM",
+                "mangledName": "$s10RongmaiKit8CallbackC8callbackyyypSgcvM",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkId",
+            "printedName": "sdkId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RongmaiKit8CallbackC5sdkIdSSvp",
+            "mangledName": "$s10RongmaiKit8CallbackC5sdkIdSSvp",
+            "moduleName": "RongmaiKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC5sdkIdSSvg",
+                "mangledName": "$s10RongmaiKit8CallbackC5sdkIdSSvg",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC5sdkIdSSvs",
+                "mangledName": "$s10RongmaiKit8CallbackC5sdkIdSSvs",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RongmaiKit8CallbackC5sdkIdSSvM",
+                "mangledName": "$s10RongmaiKit8CallbackC5sdkIdSSvM",
+                "moduleName": "RongmaiKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10RongmaiKit8CallbackC",
+        "mangledName": "$s10RongmaiKit8CallbackC",
+        "moduleName": "RongmaiKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/JsonReader.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 13,
+      "value": "\"initialized\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 7,
+      "value": "\"sdkId\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 10,
+      "value": "\"apiEvent\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 9,
+      "value": "\"wsEvent\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/IOSIntentModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1469,
+      "length": 10,
+      "value": "\"sdkEvent\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 8,
+      "value": "\"xueyan\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Array",
+      "offset": 449,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Dictionary",
+      "offset": 575,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Dictionary",
+      "offset": 690,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1286,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2155,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 2614,
+      "length": 12,
+      "value": "\"allow_init\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 13,
+      "value": "\"initialized\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 6,
+      "value": "\"init\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3011,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3216,
+      "length": 13,
+      "value": "\"initialized\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Dictionary",
+      "offset": 3430,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3481,
+      "length": 7,
+      "value": "\"sdkId\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3712,
+      "length": 6,
+      "value": "\"init\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3797,
+      "length": 6,
+      "value": "\"wsId\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 4104,
+      "length": 6,
+      "value": "\"wsId\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5113,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5131,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5263,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Dictionary",
+      "offset": 5460,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5688,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6187,
+      "length": 13,
+      "value": "\"unsubscribe\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6209,
+      "length": 6,
+      "value": "\"wsId\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "Array",
+      "offset": 6319,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6456,
+      "length": 9,
+      "value": "\"destroy\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6763,
+      "length": 22,
+      "value": "\"com.szfiu.rongmaikit\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6806,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6820,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6862,
+      "length": 52,
+      "value": "\"http:\/\/192.168.2.62:8081\/index.bundle?platform=ios\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7031,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7054,
+      "length": 10,
+      "value": "\"jsbundle\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/RongmaiKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7098,
+      "length": 52,
+      "value": "\"http:\/\/192.168.2.62:8081\/index.bundle?platform=ios\""
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/SdkEventHandler.swift",
+      "kind": "Dictionary",
+      "offset": 615,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iyowei\/rongmai\/development\/xueyan\/rongmaikit_xcframework\/RongmaiKit\/SdkEventHandler.swift",
+      "kind": "Array",
+      "offset": 1265,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

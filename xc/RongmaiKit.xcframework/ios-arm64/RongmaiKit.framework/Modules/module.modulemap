@@ -1,0 +1,11 @@
+framework module RongmaiKit {
+  umbrella header "RongmaiKit.h"
+  export *
+
+  module * { export * }
+}
+
+module RongmaiKit.Swift {
+  header "RongmaiKit-Swift.h"
+  requires objc
+}
