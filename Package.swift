@@ -8,7 +8,7 @@ let package = Package(
         .library(
             name: "RongmaiKit",
             targets: [
-                "rongmaikit_xcframework",
+                "RongmaiKit",
 
                 "CoreModules",
                 "React_runtimescheduler",
@@ -51,7 +51,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "rongmaikit_xcframework", path: "xc/rongmaikit_xcframework.xcframework"),
+        .binaryTarget(name: "RongmaiKit", path: "xc/RongmaiKit.xcframework"),
 
         .binaryTarget(name: "CoreModules", path: "xc/CoreModules.xcframework"),
         .binaryTarget(name: "React_runtimescheduler", path: "xc/React_runtimescheduler.xcframework"),
